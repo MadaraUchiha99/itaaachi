@@ -1,3 +1,4 @@
+# Note :- This code is in python programming language :)
 #What’s the word?(Naruto characters) 
 
 zz=int(input("Your choice"))
