@@ -1,0 +1,29 @@
+print('*'*36)
+print('*'*15+' MENU '+'*'*15)
+print('*'*36)
+z=int(input('''
+Choose one of the following:-
+1.hide the sentence (encode)
+2.show the sentence (decode)
+
+[NOTE:-ENCODING AND DECODING METHOD (ORDINAL VALUE + 10 AND -10 RESPECTIVELY :)   )]'''))
+
+if z == 1:
+    a = list(input("Enter the sentence to be coded or decoded."))
+    b=""
+    for i in a :
+        c=ord(i)
+        c+=10
+        i=chr(c)
+        b+=i
+    print(b)
+
+elif z == 2 :
+    a = list(input(""))
+    b=""
+    for i in a :
+        c=ord(i)
+        c-=10
+        i=chr(c)
+        b+=i
+    print(b)
